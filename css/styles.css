@@ -1,0 +1,66 @@
+body{
+    background-image: url(../img/fondoescritorio.jpg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    z-index: 0;
+}
+
+
+
+
+.navbar.navbar-expand-lg.bg-primary{
+    background:#b1b0b0;
+} 
+
+/*foto de perfil*/
+.rounded-circle.w-60{
+    position: absolute;
+    z-index: 1;
+    background-color:#ffffff;
+    height: auto;
+    width: 15 rem !important;
+    margin-top: -7.5rem;
+    margin-left: 7rem;
+}
+
+
+/*redes*/
+
+    i.fa-brands.fa-facebook.fa-2xl,
+    i.fa-brands.fa-linkedin.fa-2xl,
+    i.fa-brands.fa-instagram.fa-2xl,
+    i.fa-solid.fa-user.fa-2xl{  
+    color: #fff;
+    }
+/*facebook, si me coloco con hover lo pone azul, lo de abajo*/
+     i.fa-brands.fa-facebook.fa-2xl:hover{
+    color:rgb(16, 16, 245);
+    }
+    /*repetir lo de arriba para las otras redes sociales*/
+    i.fa-brands.fa-linkedin.fa-2xl:hover{
+        color:rgb(234, 69, 51) ;
+    }
+    i.fa-brands.fa-instagram.fa-2xl:hover{
+        color:rgb(92, 14, 165);
+    }
+    i.fa-solid.fa-user.fa-2xl:hover{
+        color:rgb(191, 20, 29);
+    }
+
+/*acá abajo le quite el contorno de las redes y el fondo negro*/
+.list-group{
+    --bs-list-group-bg: transparent;
+ --bs-list-group-border-color: none;
+}
+  /*perfil y foto*/
+section.abaut{
+    margin-top: 30rem;
+    color: rgb(236, 242, 244) ;
+}
+
+/* no se porque no me quedó el header, no se como seguir despues de la foto*/
+
+
+
+
